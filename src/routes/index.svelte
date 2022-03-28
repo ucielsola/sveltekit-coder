@@ -17,9 +17,9 @@
 </p>
 
 <ul>
-	<li>Creación de un proyecto SvelteKit</li>
-	<li>Estructura de un proyecto SvelteKit</li>
-	<li>Estructura de un archivo .svelte</li>
-    <li>Subir repositorio a GitHub</li>
-    <li>Publicar proyecto en Vercel (hosting gratuito)</li>
+	<li class="cool">Creación de un proyecto SvelteKit</li>
+	<li class="cool">Estructura de un proyecto SvelteKit</li>
+	<li class="cool">Estructura de un archivo .svelte</li>
+    <li class="cool">Subir repositorio a GitHub</li>
+    <li class="cool">Publicar proyecto en Vercel (hosting gratuito)</li>
 </ul>
