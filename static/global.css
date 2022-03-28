@@ -19,19 +19,51 @@
 /* Variables */
 
 :root {
-	--base-color: #e2f0f6;
-	--darker-base-color: #aab4b8;
-	--text-color: #0c2c40;
-	--highlight-color: #db0f1c;
+	--base-color-400: #0a2d3f;
+	--base-color-200: #0f384dfb;
+	--text-color: #fdfdfd;
+	--highlight-color: #e0251c;
 
-	--shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	--shadow: rgb(6, 25, 34) 0px 2px 5px -1px, rgba(47, 47, 47, 0.3) 0px 1px 3px -1px;
 
-	--header-height: 6.25rem;
+	--header-height: 5rem;
 }
 
 html {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 18px;
+	line-height: 1.6;
 	color: var(--text-color);
-	background-color: var(--base-color);
+	background-color: var(--base-color-400);
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.3rem;
+}
+
+li {
+	font-size: 0.9rem;
+}
+
+li::before {
+	content: '🤟';
+	font-size: 0.8rem;
+}
+
+.highlight {
+	color: var(--highlight-color);
+}
+
+@media screen and (min-width: 64rem) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.75rem;
+	}
 }
