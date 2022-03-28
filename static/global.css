@@ -53,13 +53,12 @@ li {
 	font-size: 0.9rem;
 }
 
-li.cool::before {
-	content: '🤟';
-	font-size: 0.8rem;
+li::before {
+	content: '•';
 }
 
-li.default::before {
-	content: '•';
+li.cool::before {
+	content: '🤟';
 	font-size: 0.8rem;
 }
 
