@@ -1,0 +1,37 @@
+/* FONTS */
+
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('/fonts/nunito-sans-v11-latin-regular.woff2') format('woff2'),
+		url('/fonts/nunito-sans-v11-latin-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''), url('/fonts/nunito-sans-v11-latin-700.woff2') format('woff2'),
+		url('/fonts/nunito-sans-v11-latin-700.woff') format('woff');
+}
+
+/* Variables */
+
+:root {
+	--base-color: #e2f0f6;
+	--darker-base-color: #aab4b8;
+	--text-color: #0c2c40;
+	--highlight-color: #db0f1c;
+
+	--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+	--header-height: 6.25rem;
+}
+
+html {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	color: var(--text-color);
+	background-color: var(--base-color);
+}
