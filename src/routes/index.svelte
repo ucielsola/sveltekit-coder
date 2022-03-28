@@ -1,5 +1,4 @@
 <h1>Tutorial SvelteKit</h1>
-<h2>Parte 1</h2>
 <p>
 	Hola! Estás viendo la versión final de este tutorial. Es una SPA de tres secciones, creada con <a
 		href="https://kit.svelte.com"
