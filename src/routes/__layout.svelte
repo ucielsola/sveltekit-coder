@@ -11,6 +11,13 @@
 
 <style>
 	main {
-		margin-block-start: var(--header-height);
+		margin-block-start: calc(var(--header-height) + 1.5rem);
+		padding-inline: 0.75rem;
+	}
+
+	@media screen and (min-width: 64rem) {
+		main {
+			padding-inline: 1.5rem;
+		}
 	}
 </style>
