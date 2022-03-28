@@ -1,9 +1,10 @@
 # Tutorial SvelteKit 
 
 Con este tutorial, vas a aprender a construir una [Web SPA](https://desarrolloweb.com/articulos/que-es-una-spa.html) utilizando [SvelteKit](https://kit.svelte.com), el framework que está ganando cada vez más popularidad por su facilidad de uso y aprendizaje, y todas sus prestaciones.
-Podés descargar el proyecto desde [GitHub](https://github.com/ucielsola/sveltekit-tutorial) y seguir esta misma guía desde el README del repositorio.
 
-En la **Parte 2** de este tutorial (_próximamente_), podrás publicar tu proyecto SvelteKit (y también de React/Next/Vue/Nuxt) al servicio de hosting gratuito de [Vercel](https://vercel.app), directamente desde GitHub.
+También, podrás publicar tu proyecto SvelteKit (y también de React/Next/Vue/Nuxt) al servicio de hosting gratuito de [Vercel](https://vercel.app), directamente desde GitHub.
+
+Podés descargar el proyecto desde [GitHub](https://github.com/ucielsola/sveltekit-tutorial) y seguir esta misma guía desde el README del repositorio.
 
 ## Configuración inicial
 
@@ -11,7 +12,7 @@ Para poder seguir paso a paso este tutorial, vas a necesitar tener instalado Nod
 
 Una vez que tengamos Node y NPM instalados en nuestro sistema, podemos visitar la [web de SvelteKit](https://kit.svelte.com) para leer la documentación (es excelente) y copiar los comandos necesarios para su instalación.
 
-Abrimos la terminal de comandos de nuestro sistema, y escribimos lo siguiente:
+Abrimos la terminal de comandos de nuestro sistema, y escribimos los siguientes comandos, ejecutando uno por uno:
 
     npm init svelte@next <nombre-del-proyecto>
     cd <nombre-del-proyecto>
@@ -107,6 +108,6 @@ Tenemos que crearnos una cuenta en [Vercel.app](https://vercel.app), es recomend
 
 Si tenemos un dominio personalizado (.com / .com.ar , etc) es muy sencillo de configurar. Abrimos el proyecto en vercel, y vamos a su configuración. Desde ahí buscamos la sección "Domains" y podremos agregar nuestro dominio. El siguiente paso será conectar el dominio con los servidores DNS de vercel (este paso depende de dónde se haya comprado el dominio, podés contactarme si necesitás ayuda.)
 
-Eso fue todo, espero que haya sido útil!
+
 
 
