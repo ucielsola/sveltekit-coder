@@ -37,6 +37,10 @@ html {
 	background-color: var(--base-color-400);
 }
 
+section {
+	margin-block: 0.75rem;
+}
+
 h1 {
 	font-size: 1.5rem;
 }
@@ -49,13 +53,22 @@ li {
 	font-size: 0.9rem;
 }
 
-li::before {
+li.cool::before {
 	content: '🤟';
+	font-size: 0.8rem;
+}
+
+li.default::before {
+	content: '•';
 	font-size: 0.8rem;
 }
 
 .highlight {
 	color: var(--highlight-color);
+}
+
+.center {
+	margin-inline: auto;
 }
 
 @media screen and (min-width: 64rem) {
