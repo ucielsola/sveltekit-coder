@@ -12,6 +12,5 @@
 <style>
 	main {
 		margin-block-start: var(--header-height);
-		min-height: 300vh;
 	}
 </style>
