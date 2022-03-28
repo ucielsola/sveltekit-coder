@@ -11,18 +11,28 @@
 	header {
 		position: fixed;
 		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
 		display: flex;
 		align-items: center;
 		justify-content: start;
-		width: 100%;
+		width: calc(100% - 3rem);
+		margin: 1rem 0;
 		height: var(--header-height);
 		padding-inline: 1rem;
-        background-color: var(--darker-base-color);
-		border-bottom: 1px solid var(--text-color);
+		background-color: var(--base-color-200);
+		border-radius: 1rem;
 		box-shadow: var(--shadow);
 	}
-    h1 {
-        font-size: 2rem;
-        font-weight: 700;
-    }
+	h1 {
+		display: none;
+	}
+
+	@media screen and (min-width: 64rem) {
+		h1 {
+			display: inline;
+			font-size: 2rem;
+			font-weight: 700;
+		}
+	}
 </style>
