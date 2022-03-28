@@ -76,6 +76,6 @@ SvelteKit reconocerá los archivos con extensión **.svelte** y los tomará como
 
 [SCREENSHOT NAVBAR]
 
-Y el componente NavLink, que exporta algunas variables para recibir datos desde su componente padre (**SiteNavigation**), e importa la información sobre la ruta actual desde el **Store** (contexto) que brinda **SvelteKit**.
+Y el componente NavLink, que expone (_export let ..._) algunas variables para recibir datos desde su componente padre (**SiteNavigation**), como el texto a mostrar, y la información sobre la ruta actual desde el **Store** (contexto) que brinda **SvelteKit**.
 
 
