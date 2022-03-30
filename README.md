@@ -43,15 +43,16 @@ La estructura de SvelteKit es a la vez muy **sencilla** y muy **poderosa**. Lo m
 
 Adentro de la carpeta "**src**", vamos a encontrar la carpeta **routes**, donde podemos ubicar todas las rutas de nuestra web/app ( _Inicio | Acerca de | Galería | Portfolio_ ). SvelteKit se encarga de organizar y configurar el ruteo automáticamente, y sólo basta con que nosotros creemos los archivos **.svelte** con el nombre de cada ruta adentro de esta carpeta.
 
-[SCREENSHOT ROUTES]
+![screenshot routes](https://sveltekit-coder.vercel.app/images/routes.png "Screenshot carpeta routes")
 
 Además de las rutas, es conveniente que creemos una carpeta llamada **lib**, donde podemos guardar componentes y otras utilidades para nuestra web/app. Normalmente, suelo crear la siguiente estructura: _lib > components > componente1.svelte, componente2.svelte, componente3.svelte_
 
-[SCREENSHOT LIB]
+![screenshot routes](https://sveltekit-coder.vercel.app/images/lib.png "Screenshot carpeta lib")
 
 SvelteKit nos brinda una herramienta súper útil, llamada **layout**. Creando un archivo llamado **\_\_layout.svelte** (dos guiones bajos antes de "layout") podemos crear una estructura general para "rodear" a nuestras páginas. Por ejemplo, si queremos que el **header** y el **footer** de nuestra web se mantenga estático al cambiar de página, tenemos que ubicarlo adentro del **layout**, que se encargará de montar y desmontar las páginas de nuestra web en el espacio que asignemos usando la etiqueta **&lt;slot/&gt;**
 
-[SCREENSHOT LAYOUT]
+![screenshot routes](https://sveltekit-coder.vercel.app/images/layout.png "Screenshot layout")
+
 
 Finalmente, tenemos la carpeta **static** (hermana de **src**). Acá podemos guardar todos los recursos estáticos, para facilitar el acceso a ellos desde cualquier ruta y componente:
 
@@ -68,17 +69,18 @@ Finalmente, tenemos la carpeta **static** (hermana de **src**). Acá podemos gua
     }
     </style>
 
-[SCREENSHOT STATIC]
+![screenshot routes](https://sveltekit-coder.vercel.app/images/static.png "Screenshot carpeta static")
 
 ## Estructura de un archivo .svelte
 
 SvelteKit reconocerá los archivos con extensión **.svelte** y los tomará como rutas y/o componentes. Cada uno de estos archivos puede alojar codigo **HTML**, **CSS**, y **JavaScript/TypeScript**. Esto hace que sea extremadamente fácil construir web/apps modulares, separando las funcionalidades de cada componente, y también sus estilos. Veamos como ejemplo la barra de navegación de este proyecto, que incorpora al componente **NavLink**:
 
-[SCREENSHOT NAVBAR]
+![screenshot routes](https://sveltekit-coder.vercel.app/images/navigation.png "Screenshot navigation")
+
 
 Acá vemos el componente NavLink, que expone (_export let ..._) algunas variables para recibir datos desde su componente padre (**SiteNavigation**), como el texto a mostrar, y la información sobre la ruta actual desde el **Store** (contexto) que brinda **SvelteKit**.
 
-[SCREENSHOT NavLINK]
+![screenshot routes](https://sveltekit-coder.vercel.app/images/link.png "Screenshot navigation link")
 
 ## Subir repositorio a GitHub
 
